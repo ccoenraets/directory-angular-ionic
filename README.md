@@ -1,6 +1,5 @@
-ionic-angular-cordova-seed
-==========================
+# Employee Directory #
 
-The perfect starting point for an Ionic project.
+A sample application built with Ionic and AngularJS
 
-- [Ionic Tutorials](http://ionicframework.com/tutorials/)
+More information at http://coenraets.org
