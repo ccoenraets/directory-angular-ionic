@@ -2,4 +2,4 @@
 
 A sample application built with Ionic and AngularJS
 
-More information at http://coenraets.org
+More information here: http://coenraets.org
