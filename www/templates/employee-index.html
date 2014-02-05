@@ -1,0 +1,22 @@
+<view title="'Employees'">
+
+    <div class="bar bar-subheader item-input-inset">
+        <label class="item-input-wrapper">
+            <i class="icon ion-ios7-search placeholder-icon"></i>
+            <input id="searchKey" type="search" placeholder="Search" ng-model="searchKey" autocorrect="off" >
+            <button class="button button-clear" ng-click="clearSearch()">X</button>
+        </label>
+        <button class="button button-clear" ng-click="search()">Search</button>
+    </div>
+
+    <content has-header="true" has-subheader="true">
+        <list>
+            <item ng-repeat="employee in employees" type="item-text-wrap" href="#/employee/{{employee.id}}">
+                <h3>{{employee.firstName}} {{employee.lastName}}</h3>
+                <p>{{employee.title}}</p>
+            </item>
+            </item>
+        </list>
+    </content>
+
+</view>

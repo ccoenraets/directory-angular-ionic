@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.coenraets.ionicdirectory" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>StarterApp</name>
+    <description>
+        A sample Ionic Framework app using Cordova and AngularJS
+    </description>
+    <author email="ccoenraets@gmail.com" href="http://coenraets.org">
+        Christophe Coenraets
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>
